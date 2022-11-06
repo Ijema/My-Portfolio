@@ -42,7 +42,7 @@ function Project1() {
                                 />
                             </div>
                             <p className="text-md text-center md:text-left">
-                                This project is used to determine how many students were present in a certain classroom during a particular lecture.
+                               This project provides an overview of who I am, what I can do, and what I still plan to do.
                             </p>
                         </div>
     </article>
