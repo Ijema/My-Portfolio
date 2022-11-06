@@ -22,17 +22,11 @@ export default function Header() {
                 duration:1.5
             }}
             className="flex flex-row items-center">
-                
-                {/* <SocialIcon 
-                    url="https://YouTube.com/jaketrent"  
-                    fgColor="gray" 
+                <SocialIcon 
+                    url="https://github.com/Ijema"  
+                    fgColor="white" 
                     bgColor="transparent"
-                /> */}
-                {/* <SocialIcon 
-                    url="https://youtube.com/jaketrent"  
-                    fgColor="gray" 
-                    bgColor="transparent"
-                /> */}
+                /> 
                 <SocialIcon 
                     url="https://linkedin.com/in/ijeoma-amara-ojukwu"  
                     fgColor="white" 
@@ -43,7 +37,7 @@ export default function Header() {
                     fgColor="white" 
                     bgColor="transparent"
                 />
-                <div className="h-4 w-7 mt-[-20px]">
+                <div className="h-3 w-7 mt-[-20px]">
                 <a href="https://docs.google.com/document/d/1_pQ-S0Qedr67CwIu86JPIao43AOiGF-3/edit?usp=sharing&ouid=116482452621473010180&rtpof=true&sd=true" >
                     <img src="../assets/cv-icon.jpg" alt="Cv/Resume Icon" />
                 </a>
