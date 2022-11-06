@@ -36,7 +36,7 @@ const About = () => {
           </h4>
           <p className="text-justify xl:text-base text-1sm px-0">
             I am Ijeoma Amara Ojukwu. A Front-end Developer. My ability to solve problems 
-            effectively is strong and I relate and communicate well with people. I have a Master's in Computer Science 
+            effectively is strong and I relate and communicate well with people. I have a Masters Degree in Computer Science 
             with a concentration in programming. I desire to be a member of a creative team that is constantly seeking 
             innovative approaches.
           </p>
