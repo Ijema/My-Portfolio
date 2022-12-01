@@ -19,12 +19,12 @@ function ExperienceCard3() {
         />
 
         <div className="">
-            <h4 className="text-2xl font-light">Computer Science Tutor</h4>
-            <p className="font-bold text-1xl mt-1">Government Secondary School, Toro</p>
+            <h4 className="text-2xl font-light text-center">Computer Science Tutor</h4>
+            <p className="font-bold text-1xl mt-1 text-center">Government Secondary School, Toro</p>
             
-            <p className="uppercase pb-5 text-gray-300 text-sm">April 2015 - April 2016</p>
+            <p className="uppercase pb-5 text-gray-300 text-sm text-center mt-3">April 2015 - April 2016</p>
             <ul 
-            className="list-disc space-y-1 ml-5 text-sm">
+            className="list-disc space-y-1 mt-5 ml-5 text-sm md:text-md">
                 <li>Provide training to pupils on the Microsoft Office suite and other pertinent technologies.</li>
                 <li>Teach students how to write computer programs and algorithms</li>
                 <li>Create projects that will improve lectures.</li>

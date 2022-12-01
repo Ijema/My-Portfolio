@@ -19,9 +19,9 @@ function ExperienceCard2() {
         />
 
         <div className="">
-            <h4 className="text-2xl font-light">Web Developer</h4>
-            <p className="font-bold text-1xl mt-1">Freelancer</p>
-            <div className="flex space-x-2 my-2">
+            <h4 className="text-2xl font-light text-center">Web Developer</h4>
+            <p className="font-bold text-1xl mt-1 text-center">Freelancer</p>
+            <div className="flex space-x-2 my-2 justify-center">
                 <img className="w-7 h-7 xl:h-10 xl:w-10 rounded-full"
                 src="./assets/html-logo.jpg" alt ="Tech Used"
                 />
@@ -30,9 +30,9 @@ function ExperienceCard2() {
                 />
                 
                 </div>
-            <p className="uppercase pb-5 text-gray-300 text-sm">January 2017 - April 2019</p>
+            <p className="uppercase pb-5 text-gray-300 text-sm text-center">January 2017 - April 2019</p>
             <ul 
-            className="list-disc space-y-1 ml-5 text-sm">
+            className="list-disc space-y-1 ml-5 text-sm md:text-md">
                 <li>Use web development best practices, to write well-designed, tested, efficient code.</li>
                 <li>Work with stakeholders to collect and improve requirements based on technical needs.</li>
                 <li>Responsible for site's upkeep, growth, and scaling.</li>

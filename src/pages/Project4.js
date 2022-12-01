@@ -24,7 +24,7 @@ function Project4() {
                          <a href="https://board-score.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <h4 className="text-3xl font-semibold text-center">
                                 <span className="underline decoration-[gray]">
-                                    Password Generator
+                                    Scoreboard
                                 </span>{" "}
                             </h4>
                         </a>

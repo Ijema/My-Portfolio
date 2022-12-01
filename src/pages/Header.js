@@ -2,11 +2,12 @@ import React from 'react';
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import "../App.js"
+// import { calculateSizeAdjustValues } from 'next/dist/server/font-utils.js';
 // import { social } from "../typings";
 
 export default function Header() {
   return (
-    <header className="top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
+    <header className="top-0 p-2 md:p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
         <motion.div 
             initial={{
                 x: -500,
@@ -21,12 +22,18 @@ export default function Header() {
             transition={{
                 duration:1.5
             }}
-            className="flex flex-row items-center">
+            className="flex flex-row items-center mb-5">
+                
+                {/* <SocialIcon 
+                    url="https://YouTube.com/"  
+                    fgColor="gray" 
+                    bgColor="transparent"
+                /> */}
                 <SocialIcon 
-                    url="https://github.com/Ijema"  
+                    url="https://www.facebook.com/ijeoma.ojukwu.58"  
                     fgColor="white" 
                     bgColor="transparent"
-                /> 
+                />
                 <SocialIcon 
                     url="https://linkedin.com/in/ijeoma-amara-ojukwu"  
                     fgColor="white" 
@@ -37,14 +44,17 @@ export default function Header() {
                     fgColor="white" 
                     bgColor="transparent"
                 />
-                <div className="h-3 w-7 mt-[-20px]">
-                <a href="https://docs.google.com/document/d/1_pQ-S0Qedr67CwIu86JPIao43AOiGF-3/edit?usp=sharing&ouid=116482452621473010180&rtpof=true&sd=true" >
-                    <img src="../assets/cv-icon.jpg" alt="Cv/Resume Icon" />
+                <a href="#contact">
+                    <SocialIcon 
+                        className="cursor-pointer"
+                        network="email"  
+                        fgColor="white" 
+                        bgColor="transparent"
+                    />
                 </a>
-            </div>
         </motion.div>
     
-    <a href="#contact">
+    
         <motion.div 
             initial={{
                 x: 500,
@@ -62,15 +72,15 @@ export default function Header() {
             className="flex flex-row items-center text-blue-300 cursor-pointer"
             >
             
-            <SocialIcon 
-                    className="cursor-pointer"
-                    network="email"  
-                    fgColor="white" 
-                    bgColor="transparent"
-                />
-                <p className="uppercase hidden md:inline-flex text-sm text-stone-300 pl-2 pr-5">Get in Touch</p>
+            <a 
+                href="../assets/files/Ijeoma Amara Ojukwu CV.docx" 
+                download="Ijeoma Amara Ojukwu CV" 
+                target="_blank"
+                rel="noreferrer">
+                <button className="border-solid border-2 px-4 border-gray-500 hover:text-gray-500 rounded-full text-white mt-3 md:mt-0 mr-2">CV</button> 
+            </a>
+                <p className="uppercase hidden md:inline-flex text-md text-stone-300 pl-2 pr-5">Download</p>
         </motion.div>
-    </a>
     </header>
   );
 }

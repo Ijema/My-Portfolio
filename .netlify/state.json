@@ -1,0 +1,17 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Lagos",
+			"country": {
+				"code": "NG",
+				"name": "Nigeria"
+			},
+			"subdivision": {
+				"code": "LA",
+				"name": "Lagos"
+			}
+		},
+		"timestamp": 1667771078746
+	},
+	"siteId": "b65ce224-3127-4df4-b9d7-68f656dc2415"
+}

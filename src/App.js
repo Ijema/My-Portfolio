@@ -45,8 +45,8 @@ function App() {
         <ContactMe />
       </section>
 
-      <footer className="sticky bottom-[55px] w-full cursor-pointer">
-          <div className="flex items-left justify-left pl-3">
+      <footer className="sticky bottom-[1px] w-full cursor-pointer">
+          <div className="flex items-right justify-end pr-[10px]">
           <a href="#hero">
              <BarsArrowUpIcon className="h-6 w-6 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" />
           </a>

@@ -25,10 +25,10 @@ const [text] = useTypewriter({
             src ="./assets/passport1.jpg" alt="My Profile Display" 
         />
         <div className="z-20">
-            <h2 className="text-sm md:text-md pt-[49px] uppercase text-gray-100 tracking-[9px] pb-2 pl-2">
+            <h2 className="text-sm md:text-md pt-[49px] md:uppercase text-gray-100 tracking-[9px] pb-2 pl-2">
                 Front-end Developer
             </h2>
-            <h1 className="text-lg md:text-2xl font-semibold px-10 overflow-hidden">
+            <h1 className="text-md md:text-2xl font-semibold px-10 overflow-hidden">
                 <span className="mr-3">{text}</span>
                 <Cursor cursorColor="#ffffff" />
             </h1>

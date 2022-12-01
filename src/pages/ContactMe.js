@@ -18,7 +18,7 @@ function ContactMe() {
   
   return (
     <div className =" h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
-      <h3 className="absolute top-10 xl:top-15 uppercase tracking-[9px] text-gray-100 text-2xl">
+      <h3 className="absolute top-5 xl:top-15 uppercase tracking-[9px] text-gray-100 text-2xl">
         Contact
       </h3>
 
@@ -39,15 +39,15 @@ function ContactMe() {
             <p className="text-2xl">+2348060646993</p>
           </div> */}
 
-          <div className="flex items-center space-x-1 xl:space-x-3 justify-center pb-7">
-            <MapPinIcon className="text-[#94a3b8] h-7 w-7 animate-pulse" />
+          <div className="flex items-center space-x-1 xl:space-x-3 justify-center pb-7 pl-2 pr-10 md:pl-0 md:pr-0">
+            <MapPinIcon className="text-[#94a3b8] h-7 w-7 ml-5 mt-[-19px] md:mt-0 animate-pulse" />
             <p className="text-1xl md:text-2xl xl:text-2xl">Oby Okoli street, Awka, Anambra state, Nigeria</p>
           </div>
 
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-[347px] md:w-full xl:w-full">
-          <div className="flex flex-col md:flex-row md:space-x-2 xl:flex-row space-y-2 md:space-y-0 xl:space-y-0">
+        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col space-y-2 w-[347px] mx-auto md:w-full">
+          <div className="flex flex-col md:flex-row md:space-x-2 xl:flex-row space-y-2 md:space-y-0">
             <input {...register('name')} placeholder="Name" className="contactInput" type="text"/>
             <input {...register('email')} placeholder="Email" className="contactInput" type="email" />
           </div>

@@ -4,11 +4,11 @@
 
 @layer components {
     .heroButton {
-        @apply px-1 border border-[#000000] rounded-full uppercase text-sm 
+        @apply px-1 border border-[#000000] rounded-full uppercase text-xs 
         text-gray-100 transition-all hover:border-[#F7ABBA] hover:text-[#F7ABBA]
     }
     .contactInput {
-         @apply outline-none bg-slate-400/40 rounded-sm px-9 py-2 border-[#242424] text-gray-100 placeholder-gray-300 transition-all 
+         @apply outline-none bg-slate-400/40 rounded-sm px-12 py-2 border-[#242424] text-gray-100 placeholder-gray-300 transition-all 
          focus:border-[#F7ABBA]/40 focus:text-[#F7ABBA]/40 hover:border-[#F7ABBA]/40
     }
 }

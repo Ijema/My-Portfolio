@@ -12,7 +12,7 @@ export default function WorkExperience() {
       transition={{ duration: 1.2 }}
       className="h-screen flex relative flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center">
       
-      <h3 className="absolute top-[20px] xl:top-[9px] uppercase tracking-[5px] text-gray-100 text-2xl">
+      <h3 className="absolute top-1 xl:top-[9px] uppercase tracking-[5px] text-gray-100 text-2xl z-10">
         Work Experience
       </h3>
 

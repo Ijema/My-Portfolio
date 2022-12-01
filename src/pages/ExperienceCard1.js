@@ -19,9 +19,9 @@ function ExperienceCard() {
         />
 
         <div className="">
-            <h4 className="text-2xl font-light">Front-end Developer</h4>
-            <p className="font-bold text-1xl mt-1">Nnamdi Azikiwe University</p>
-            <div className="flex space-x-2 my-2">
+            <h4 className="text-2xl font-light text-center">Front-end Developer</h4>
+            <p className="font-bold text-1xl mt-1 text-center">Nnamdi Azikiwe University</p>
+            <div className="flex space-x-2 my-2 justify-center">
                 <img className="w-7 h-7 xl:h-10 xl:w-10 rounded-full"
                 src="./assets/html-logo.jpg" alt ="Tech Used"
                 />
@@ -41,9 +41,9 @@ function ExperienceCard() {
                 src="./assets/sanity.png" alt ="Tech Used"
                 />
             </div>
-            <p className="uppercase pb-5 text-gray-300 text-sm">June 2019 -Till date</p>
+            <p className="uppercase pb-5 text-gray-300 text-sm text-center">June 2019 -Till date</p>
             <ul 
-            className="list-disc space-y-1 ml-5 text-sm">
+            className="list-disc space-y-1 ml-5 text-sm md:text-md">
                 <li>Create user-friendly web pages languages like HTML for the school</li>
                 <li>Review students code</li>
                 <li>Design, Test and Implement codes.</li>
