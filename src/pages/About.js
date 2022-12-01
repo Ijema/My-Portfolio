@@ -26,9 +26,9 @@ const About = () => {
         viewport={{
           once: true
         }}
-        src="./assets/full-picture.jpg" alt="Full Picture" 
+        src="./assets/full-picture.png" alt="Full Picture" 
           className="-mb-20 md:mb-0 flex-shrink-0 w-[129px] h-[129px] rounded-full object-cover
-          md:rounded-lg md:w-64 md:h-64 lg:w-[300px] lg:h-[330px]"
+          md:rounded-none md:border-none md:w-64 md:h-64 lg:w-[300px] lg:h-[330px]"
         />
         <div className="space-y-3 xl-space-y-10 px-0 md:px-10">
           <h4 className="text-2xl xl:text-3xl font-semibold">
