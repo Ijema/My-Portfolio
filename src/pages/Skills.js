@@ -10,6 +10,7 @@ import Skill7 from '../pages/Skill7'
 import Skill8 from '../pages/Skill8'
 import Skill9 from '../pages/Skill9'
 import Skill10 from '../pages/Skill10'
+import Skill11 from '../pages/Skill11'
 
 function Skills() {
   
@@ -37,7 +38,7 @@ function Skills() {
           <Skill8 />
           <Skill9 />
           <Skill10 />
-
+          <Skill11 />
             
         </div>
     </motion.div>
