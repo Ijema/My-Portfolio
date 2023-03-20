@@ -74,7 +74,7 @@ export default function Header() {
             
             <a 
                 href="../assets/files/Ijeoma Amara Ojukwu CV.docx" 
-                download="Ijeoma Amara Ojukwu CV" 
+                download="Ojukwu Ijeoma Amara CV" 
                 target="_blank"
                 rel="noreferrer">
                 <button className="border-solid border-2 px-4 border-gray-500 hover:text-gray-500 rounded-full text-white mt-3 md:mt-0 mr-2">CV</button> 
