@@ -16,24 +16,26 @@ function Project1() {
             whileInView={{ opacity:1, y:0 }}
             viewport={{ once:true }}
             className="w-40 h-20 md:w-60 md:h-40 xl:w-60 xl:h-55"
-            src="./assets/naucsclab-image.png" alt="Projects"
+            src="./assets/BOG Image.png" alt="Projects"
         /></a>
 
         <div className="space-y-5 px-0 md:px-10 max-w-5xl">
                             <h4 className="text-3xl font-semibold text-center">
                                 <span className="underline decoration-[gray]">
-                                <a href="http://naucsclab.42web.io/" target="_blank" rel="noopener noreferrer"> Nau Computer Science Laboratory Website</a>
+                                <a href="https://ijema.github.io/wrist-watch-online-shopping-mall/" target="_blank" rel="noopener noreferrer"> BOG Wrist Watch Online Shop</a>
                                 </span>{" "}
                             </h4>
                             <div className="flex space-x-2 justify-center items-center">
                                 <img className="h-8 w-8 xl:w-15 xl:h-15 rounded-full"
-                                src="./assets/wordpress-logo.png" alt ="Tech Used"
+                                src="./assets/html-logo.jpg" alt ="Tech Used"
+                                />
+                                <img className="h-8 w-8 rounded-full"
+                                src="./assets/css-logo.png" alt ="Tech Used"
                                 />
                                 {/* Tech used */}
                             </div>
                             <p className="text-md text-center md:text-left">
-                                This website is developed for the computer science laboratory department. This will help the department
-                                conduct practicals quiz better.
+                                Our website serves as a premier online marketplace dedicated to the seamless purchase of wristwatches. It offers a wide selection of timepieces, allowing customers to explore and acquire their desired watches with convenience and confidence.
                             </p>
                         </div>
     </article>
