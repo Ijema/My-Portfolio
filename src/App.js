@@ -47,9 +47,9 @@ function App() {
 
       <footer className="sticky bottom-[1px] w-full cursor-pointer">
           <div className="flex items-right justify-end pr-[10px]">
-          <a href="#hero">
+          {/* <a href="#hero">
              <BarsArrowUpIcon className="h-6 w-6 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" />
-          </a>
+          </a> */}
         </div>
       </footer>
 

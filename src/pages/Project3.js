@@ -16,8 +16,8 @@ function Project3() {
                 whileInView={{ opacity:1, y:0 }}
                 viewport={{ once:true }}
                 className="w-40 h-20 md:w-60 md:h-40 xl:w-60 xl:h-55"
-                src="./assets/password-generator.jpg" alt="Projects"
-            />
+                src="" alt="Projects"
+            />./assets/password-generator.jpg
         </a>
 
             <div className="space-y-5 px-0 md:px-10 max-w-5xl">
