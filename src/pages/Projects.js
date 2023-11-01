@@ -1,9 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Project1 from './Project1';
-import Project2 from './Project2';
-import Project3 from './Project3';
-import Project4 from './Project4';
 import ProjectCard from './ProjectCard';
 
 function Projects() {
@@ -37,18 +33,36 @@ function Projects() {
                 description="This project is used to determine how many students were present in a certain classroom during a particular lecture."
             />
 
+            <ProjectCard link="https://ijeoma-transport-queue-system.netlify.app/"
+                projectImage="./assets/queue-transport-system-Image.png"
+                projectTitle="Queue Transport System"
+                Logo={[
+                    "./assets/react.png",
+                ]}
+                description="It's a queue transport system that incorporates a user-friendly drag-and-drop feature for efficiently managing customers and scheduling them on the planner throughout the week."
+            />
+
+            <ProjectCard link="https://ijeoma-transport-queue-system.netlify.app/"
+                projectImage="./assets/product-inventory-management-image.png"
+                projectTitle="Product Inventory Mangement"
+                Logo={[
+                    "./assets/react.png",
+                ]}
+                description="This system is designed for managing product inventory through a table-based interface. It empowers the sales administrator to perform CRUD (Create, Read, Update, Delete) operations on products."
+
+            />
             <ProjectCard 
                 link="https://demmicod-travels.netlify.app/" 
                 projectImage="./assets/demmicod-travels-image.png" 
                 projectTitle=" Demmicod Travel Guide" 
                 Logo={["./assets/html-logo.jpg", "./assets/css-logo.png", "./assets/react.png"]} 
-                description=" Demmicod Travels is a comprehensive and user-friendly travel website offering personalized travel options, seamless booking, travel advisories, and a vibrant community of fellow travelers. It's your ultimate destination for exploring the world with confidence and convenience." 
+                description=" Demmicod Travels is a user-friendly travel website offering personalized travel options, travel advisories, and a vibrant community of fellow travelers. It's your ultimate destination for exploring the world with confidence and convenience." 
             />
 
             <ProjectCard 
                 link="https://ijema.github.io/wrist-watch-online-shopping-mall/" 
                 projectImage="./assets/bog-image.png" 
-                projectTitle=" BOG Wrist Watch Online Shop" 
+                projectTitle=" BOG Wrist Watch Store" 
                 Logo={["./assets/html-logo.jpg", "./assets/css-logo.png"]} 
                 description=" Our website serves as a premier online marketplace dedicated to the seamless purchase of wristwatches. It offers a wide selection of timepieces, allowing customers to explore and acquire their desired watches with convenience and confidence." 
             />
