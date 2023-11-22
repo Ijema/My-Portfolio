@@ -42,7 +42,7 @@ function Projects() {
                 description="It's a queue transport system that incorporates a user-friendly drag-and-drop feature for efficiently managing customers and scheduling them on the planner throughout the week."
             />
 
-            <ProjectCard link="https://ijeoma-transport-queue-system.netlify.app/"
+            <ProjectCard link="https://product-inventory-management-system.netlify.app/"
                 projectImage="./assets/product-inventory-management-image.png"
                 projectTitle="Product Inventory Mangement"
                 Logo={[
