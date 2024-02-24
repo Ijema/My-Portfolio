@@ -1,11 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-type Props = {
-    directionLeft?: boolean;
-};
-
-function Skill2({ directionLeft }: Props) {
+function Skill2(directionLeft) {
   return (
     <div className="group relative flex cursor-pointer top-20">
         <motion.img 

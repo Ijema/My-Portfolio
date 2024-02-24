@@ -7,11 +7,12 @@ import BackgroundCircles from '../pages/BackgroundCircles'
 function Hero() {
 const [text] = useTypewriter({
              words: [
-            'Hi, The name is Ijeoma Ojukwu',
-            'Very dedicated and hardworking',
-            'Above her limit she strives to get',
-            'This is just the beginning',
-            'Her best is yet to come'
+                "Hello, I'm Ijeoma, transitioning to Frontend Development.",
+                "Dedicated and hardworking professional.",
+                "Striving to exceed limits.",
+                "Embarking on my coding journey.",
+                "Passionate about creating seamless user experiences.",
+                "My best work is yet to come."
         ],    
         loop: true,
         delaySpeed: 2000,
@@ -22,13 +23,16 @@ const [text] = useTypewriter({
         <BackgroundCircles />
         <img
             className="relative top-7 rounded-full h-[163px] w-[163px] mx-auto object-cover "
-            src ="./assets/passport1.jpg" alt="My Profile Display" 
+            src ="./assets/profile-picture1.png" alt="My Profile Display" 
         />
         <div className="z-20">
-            <h2 className="text-sm md:text-md pt-[49px] md:uppercase text-gray-100 tracking-[9px] pb-2 pl-2">
-                Front-end Developer
+            <h2 className="text-sm md:text-md pt-[40px] md:uppercase text-gray-100 tracking-[3px]">
+                Customer Suport |
             </h2>
-            <h1 className="text-md md:text-2xl font-semibold px-10 overflow-hidden">
+            <h2 className="text-sm md:text-md md:uppercase text-gray-100 tracking-[3px] pb-2 pl-2">
+                Frontend Developer
+            </h2>
+            <h1 className="text-md md:text-1xl font-semibold px-10 overflow-hidden">
                 <span className="mr-3">{text}</span>
                 <Cursor cursorColor="#ffffff" />
             </h1>

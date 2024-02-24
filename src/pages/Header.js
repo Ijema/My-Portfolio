@@ -24,11 +24,7 @@ export default function Header() {
             }}
             className="flex flex-row items-center mb-5">
                 
-                {/* <SocialIcon 
-                    url="https://YouTube.com/"  
-                    fgColor="gray" 
-                    bgColor="transparent"
-                /> */}
+                
                 <SocialIcon 
                     url="https://www.facebook.com/ijeoma.ojukwu.58"  
                     fgColor="white" 
@@ -41,6 +37,11 @@ export default function Header() {
                 />
                 <SocialIcon 
                     url="https://twitter.com/Ijeoma_Oj1?t=rgtSDAOLI3Hkpkm_3mql6g&s=09"  
+                    fgColor="white" 
+                    bgColor="transparent"
+                />
+                <SocialIcon 
+                    url="https://www.youtube.com/channel/UCM-Na8P7Osg96zya8U0iZ2g"  
                     fgColor="white" 
                     bgColor="transparent"
                 />
@@ -73,8 +74,8 @@ export default function Header() {
             >
             
             <a 
-                href="../assets/files/Ijeoma Amara Ojukwu CV.docx" 
-                download="Ojukwu Ijeoma Amara CV" 
+                href="../../public/assets/files/_IJEOMA AMARA OJUKWU CV.pdf" 
+                download="_IJEOMA AMARA OJUKWU CV" 
                 target="_blank"
                 rel="noreferrer">
                 <button className="border-solid border-2 px-4 border-gray-500 hover:text-gray-500 rounded-full text-white mt-3 md:mt-0 mr-2">CV</button> 
