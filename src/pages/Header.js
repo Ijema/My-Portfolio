@@ -41,7 +41,7 @@ export default function Header() {
                     bgColor="transparent"
                 />
                 <SocialIcon 
-                    url="https://www.youtube.com/channel/UCM-Na8P7Osg96zya8U0iZ2g"  
+                    url="https://github.com/Ijema"  
                     fgColor="white" 
                     bgColor="transparent"
                 />
