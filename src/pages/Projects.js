@@ -19,20 +19,7 @@ function Projects() {
             </h3>
                 
             <div className="relative top-[40px] w-full flex space-x-5 p-10 overflow-x-scroll overflow-y-hidden snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ffffff] z-20">
-            <ProjectCard
-                link="./"
-                projectImage="./assets/portfolio-logo.jpg"
-                projectTitle="My Portfolio"
-                Logo={[
-                    "./assets/react.png",
-                    "./assets/framer-motion-logo.jpg",
-                    "./assets/sanity.png",
-                    "./assets/tailwind-logo.png",
-                    "./assets/typescript.png"
-                ]}
-                description="This project is used to determine how many students were present in a certain classroom during a particular lecture."
-            />
-
+            
             <ProjectCard link="https://ijeoma-transport-queue-system.netlify.app/"
                 projectImage="./assets/queue-transport-system-Image.png"
                 projectTitle="Queue Transport System"
@@ -51,6 +38,19 @@ function Projects() {
                 description="This system is designed for managing product inventory through a table-based interface. It empowers the sales administrator to perform CRUD (Create, Read, Update, Delete) operations on products."
 
             />
+
+            <ProjectCard link="https://ijema.github.io/play-piano/"
+                projectImage="./assets/play-piano-img.png"
+                projectTitle="Play Piano Javascript"
+                Logo={[
+                    "./assets/html-logo.jpg",
+                    "./assets/css-logo.png",
+                    "./assets/javascript-logo.png"
+                ]}
+                description="The Piano Playing App is a fun web application allowing users to play piano sounds. Use white keys to play and black keys to stop."
+
+            />
+
             <ProjectCard 
                 link="https://demmicod-travels.netlify.app/" 
                 projectImage="./assets/demmicod-travels-image.png" 
@@ -84,12 +84,26 @@ function Projects() {
                 with your chosen words and special characters." 
             />
 
+            <ProjectCard
+                link="./"
+                projectImage="./assets/portfolio-logo.jpg"
+                projectTitle="My Portfolio"
+                Logo={[
+                    "./assets/react.png",
+                    "./assets/framer-motion-logo.jpg",
+                    "./assets/sanity.png",
+                    "./assets/tailwind-logo.png",
+                    "./assets/typescript.png"
+                ]}
+                description="This project is used to determine how many students were present in a certain classroom during a particular lecture."
+            />
 
-            </div>
 
-            <div className="w-full absolute top-[35%] h-[60%] bg-[#F7ABBA]/10 left-0 h-[500px]
-            -skew-y-12">
-            </div>
+        </div>
+
+        <div className="w-full absolute top-[35%] h-[60%] bg-[#F7ABBA]/10 left-0 h-[500px]
+           -skew-y-12">
+        </div>
    </motion.div>     
   )
 }
